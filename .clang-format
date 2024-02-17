@@ -6,13 +6,13 @@ AlignOperands: Align
 AllowAllArgumentsOnNextLine: false
 AllowAllConstructorInitializersOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: false
-AllowShortBlocksOnASingleLine: Always
+AllowShortBlocksOnASingleLine: Never
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: All
-AllowShortIfStatementsOnASingleLine: Always
+AllowShortIfStatementsOnASingleLine: Never
 AllowShortLambdasOnASingleLine: All
-AllowShortLoopsOnASingleLine: true
-AlwaysBreakAfterReturnType: None
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: All
 AlwaysBreakTemplateDeclarations: Yes
 BreakBeforeBraces: Custom
 BraceWrapping:
@@ -41,7 +41,8 @@ MaxEmptyLinesToKeep: 2
 NamespaceIndentation: All
 ObjCSpaceAfterProperty: false
 ObjCSpaceBeforeProtocolList: true
-PointerAlignment: Right
+PointerAlignment: Left
+ReferenceAlignment: Left
 ReflowComments: false
 SpaceAfterCStyleCast: true
 SpaceAfterLogicalNot: false
